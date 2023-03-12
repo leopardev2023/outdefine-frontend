@@ -20,7 +20,7 @@ const Inactive = ({ loading }: InactiveProps) => {
     <>
       {inactives?.length === 0 && (
         <EmptyPanelV2
-          image='/common/spaceboy/astro-cook.png'
+          image='/app/common/spaceboy/astro-cook.png'
           imageClassName='w-[152px] h-[158px]'
           description='Start finding talent and create your dream team!'
           title='No talent'

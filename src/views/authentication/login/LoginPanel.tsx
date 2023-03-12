@@ -77,7 +77,7 @@ const LoginPanel: React.FC = () => {
         const avatarInfo = userData.data?.avatar;
         if (avatarInfo && avatarInfo.length > 2) avatar = avatarInfo;
         else if (avatarInfo && avatarInfo.length <= 2) {
-          avatar = `https://www.app.outdefine.com/common/avatar/DEFAULT-${
+          avatar = `/app/common/avatar/DEFAULT-${
             Number(avatarInfo) >= 6 ? "WOMEN" : "MAN"
           }-${(Number(avatarInfo) + 1) % 6}.png`;
         } else {

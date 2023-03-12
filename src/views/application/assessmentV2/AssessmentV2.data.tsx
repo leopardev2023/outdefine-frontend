@@ -3,25 +3,25 @@ import { Token } from "./Icons";
 export const UIData = {
   introduction: {
     background: "/assessments/introduction_bk.png",
-    image: "/common/spaceboy/astronaut-using-vr-tech.png",
+    image: "/app/common/spaceboy/astronaut-using-vr-tech.png",
     stage: "Introduce Yourself",
     todo: "Introduce yourself in a quick 5 min video. Press start button below to be directed to Myinterview.com",
   },
   hackerearth: {
     background: "/assessments/hackerearth_bk.png",
-    image: "/common/spaceboy/astro-computer.png",
+    image: "/app/common/spaceboy/astro-computer.png",
     stage: "Blockchain Engineer",
     todo: "Based on your role choice you have selected the testing above. Press start to be redirected to Hackerearth for your multiple choice testing.",
   },
   hackerearth_coding: {
     background: "/assessments/hackerearth_bk.png",
-    image: "/common/spaceboy/astro-computer.png",
+    image: "/app/common/spaceboy/astro-computer.png",
     stage: "General Programming",
     todo: "Showcase your skills by taking this coding challenge. Press start to be redirected to Hackerearth for your coding challenge.",
   },
   interview: {
     background: "/assessments/discussion_bk.png",
-    image: "/common/spaceboy/refer_friend_astros.png",
+    image: "/app/common/spaceboy/refer_friend_astros.png",
     stage: "Join us for a discussion",
     todo: (
       <>

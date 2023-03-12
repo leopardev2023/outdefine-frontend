@@ -19,7 +19,7 @@ export default function TalentReviewPanelV2({
       className={`h-[480px] mt-[54px] mb-20 pt-[54px] pb-20 flex flex-col ${
         userRole === 'Client' ? 'justify-center' : ''
       }`}
-      image={'/common/spaceboy/astro-meaningless.png'}
+      image={'/app/common/spaceboy/astro-meaningless.png'}
       title={'No reviews'}
       description={
         userRole === 'Client'

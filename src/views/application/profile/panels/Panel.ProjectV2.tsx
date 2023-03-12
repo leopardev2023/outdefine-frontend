@@ -71,7 +71,7 @@ export default function TalentProjectPanelV2(props: TalentProjectPanelV2): React
     <>
       {portfolios.length === 0 && (
         <EmptyPanelV2
-          image={"/common/spaceboy/astro-computer.png"}
+          image={"/app/common/spaceboy/astro-computer.png"}
           description={
             props.userRole === "Client"
               ? "There are no projects to show for this candidate."

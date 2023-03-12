@@ -23,7 +23,7 @@ export default function TalentInfoView({ talent }: any) {
           />
           {talent?.is_trusted_talent === "TRUSTED" && (
             <img
-              src="/common/badge/trusted_badge.png"
+              src="/app/common/badge/trusted_badge.png"
               alt="trusted member"
               className="absolute top-1/2 -right-1/3"
               title="Trusted talent"

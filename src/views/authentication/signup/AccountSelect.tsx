@@ -41,18 +41,18 @@ function AccountSelect({ onSelect }: Props) {
       <div className="relative hidden md:flex flex-col max-w-screen min-h-screen overflow-hidden md:gap-0 md:flex-row font-inter">
         <div className="h-screen w-full lg:w-[405px] fixed lg:relative shrink-0">
           <img
-            src={"/common/sidebar-sky.png"}
+            src={"/app/common/sidebar-sky.png"}
             alt="Outdefine"
             className="-ml-[10px] w-full h-full object-cover"
           />
           <img
-            src="/common/spaceboy/flag.png"
+            src="/app/common/spaceboy/flag.png"
             alt="spaceboy"
             className="absolute w-[160px] h-[160px] bottom-[510px] right-[122px] z-10"
           />
         </div>
         <img
-          src="/common/earth.png"
+          src="/app/common/earth.png"
           width={520}
           alt="spaceboy"
           className="absolute bottom-0 left-0 z-1"

@@ -69,7 +69,7 @@ export default function JobPostingDetailViewV2(): ReactElement {
               <SocialBoxV2 viewFromTalent data={companyProfile} />
             </div>,
             <EmptyPanelV2
-              image={"/common/spaceboy/astro-meaningless.png"}
+              image={"/app/common/spaceboy/astro-meaningless.png"}
               imageClassName="w-[150px] h-[144px] block mb-6"
               title={"No reviews"}
               className="flex flex-col text-center w-full h-[360px] pt-9 pb-11 px-[150px]"

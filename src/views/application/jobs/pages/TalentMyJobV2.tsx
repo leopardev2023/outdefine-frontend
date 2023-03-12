@@ -13,7 +13,7 @@ export default function TalentMyJobV2(): ReactElement {
       <div className='relative w-full flex'>
         <h1 className='hidden lg:block font-bold text-xl leading-[30px] mt-[60px]'>My jobs</h1>
         <img
-          src={"/common/spaceboy/astro-angle.png"}
+          src={"/app/common/spaceboy/astro-angle.png"}
           alt='astro is angling'
           className='ml-auto lg:ml-0 lg:absolute w-[150px] lg:w-[176px] right-0 top-[15px]'
         />

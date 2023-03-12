@@ -98,7 +98,7 @@ export default function RecommendedJobPostingGroup(): ReactElement {
       {!posts.length && !job.loading && (
         <div className="mt-20">
           <EmptyPanelV2
-            image="/common/spaceboy/astro-computer.png"
+            image="/app/common/spaceboy/astro-computer.png"
             title="No jobs found"
             description="We currently don’t have the specific role you are looking for. Search for another job or look through your “Recommended for you”!"
           />

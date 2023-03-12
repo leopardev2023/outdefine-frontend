@@ -19,7 +19,7 @@ export default function TalentJobViewPanelV2({ active }: { active: boolean }) {
         <EmptyPanelV2
           description='Start applying to jobs and you’ll be able to find them here!'
           title='No jobs'
-          image='/common/spaceboy/astro-cook.png'
+          image='/app/common/spaceboy/astro-cook.png'
           className='pt-[72px] pb-[52px]'
         >
           <NavLink to='/jobs' className='mt-6'>

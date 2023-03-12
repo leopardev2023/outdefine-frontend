@@ -65,7 +65,7 @@ export default function TalentExperienceSubPanelV2(
   const isFreelancer = props.userRole === "Freelancer";
   const EmptyExperience = isFreelancer
     ? <EmptyPanelV2
-  image={"/common/spaceboy/astro-computer.png"}
+  image={"/app/common/spaceboy/astro-computer.png"}
   description="Show companies your previous experience."
   title="Add your previous experience"
   className={`h-[480px] mt-[54px] mb-20 pt-[54px] pb-20 flex flex-col`}

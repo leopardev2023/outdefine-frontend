@@ -17,7 +17,7 @@ export default function TalentCollectionV2({ userRole }: PropsType) {
       className={`h-[480px] mt-[54px] mb-20 pt-[54px] pb-20 flex flex-col ${
         userRole === "Client" ? "justify-center" : ""
       }`}
-      image={"/common/spaceboy/astro-roller.png"}
+      image={"/app/common/spaceboy/astro-roller.png"}
       title={"No collections"}
       description={
         userRole === "Client"

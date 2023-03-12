@@ -95,7 +95,7 @@ const Applicants = ({ selectedId, appList, loading = true, invited, onRefetch }:
             .filter((app) => (invited ? app.is_invited : !app.is_invited));
           return applications.length === 0 ? (
             <EmptyPanelV2
-              image={"/common/spaceboy/astronaut-celebrating.png"}
+              image={"/app/common/spaceboy/astronaut-celebrating.png"}
               title={"No applicants"}
               description={"Create job posts that talent can apply to."}
               imageClassName="w-[150px] h-[155px]"

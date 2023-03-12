@@ -10,7 +10,7 @@ import EmptyPanelV2 from 'views/client-application/profile/panels/Panel.EmptyV2'
 export function EmptyJobPanel() {
   return (
     <EmptyPanelV2
-      image={'/common/spaceboy/astro-computer.png'}
+      image={'/app/common/spaceboy/astro-computer.png'}
       title={'No jobs found'}
       description={
         'You don’t have any jobs yet. Visit our jobs search page to get started!'

@@ -212,7 +212,7 @@ export default function OfferDetailViewV2() {
         >
           <div className="w-full h-[530px] rounded-lg relative">
             <img
-              src="/common/bg-sky.png"
+              src="/app/common/bg-sky.png"
               alt="bg-sky"
               className="w-full h-full object-cover rounded-lg"
             />
@@ -221,7 +221,7 @@ export default function OfferDetailViewV2() {
                 Congrats on accepting your offer! You’ve earned 250 tokens!
               </h4>
               <img
-                src="/common/spaceboy/gamer1.png"
+                src="/app/common/spaceboy/gamer1.png"
                 alt="astro-gamer1"
                 className="w-[280px] h-[258px] block mt-2"
                 width={280}

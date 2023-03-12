@@ -105,7 +105,7 @@ const Interviewing = ({ selectedId, appList, loading = true, onRefetch }: PropsT
     <>
       {interviews.length === 0 && (
         <EmptyPanelV2
-          image={"/common/spaceboy/astronaut-celebrating.png"}
+          image={"/app/common/spaceboy/astronaut-celebrating.png"}
           title={"No applicants"}
           description={"Create job posts that talent can apply to."}
           imageClassName="w-[150px] h-[155px]"
@@ -305,7 +305,7 @@ const Interviewing = ({ selectedId, appList, loading = true, onRefetch }: PropsT
         >
           <div className="w-full h-[530px] rounded-lg relative">
             <img
-              src="/common/bg-sky.png"
+              src="/app/common/bg-sky.png"
               alt="bg-sky"
               className="w-full h-full object-cover rounded-lg"
             />
@@ -314,7 +314,7 @@ const Interviewing = ({ selectedId, appList, loading = true, onRefetch }: PropsT
                 Congratulations on extending an offer!
               </h4>
               <img
-                src="/common/spaceboy/gamer1.png"
+                src="/app/common/spaceboy/gamer1.png"
                 alt="astro-gamer1"
                 className="w-[280px] h-[258px] block mt-2"
                 width={280}

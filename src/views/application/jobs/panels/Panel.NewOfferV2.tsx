@@ -35,7 +35,7 @@ export function EmptyOfferTip() {
     <EmptyPanelV2
       description="Start applying to jobs!"
       title="No current offers"
-      image="/common/spaceboy/astronaut-celebrating.png"
+      image="/app/common/spaceboy/astronaut-celebrating.png"
       className="mt-[90px] pt-16 pb-[60px]"
     >
       <NavLink to="/jobs" className="block mt-6">
@@ -51,7 +51,7 @@ function CongratsOfferTip() {
       <div className="relative">
         <img src="/app/common/universe-background.png" alt="universal-background" />
         <img
-          src="/common/spaceboy/astronaut-riding-on-rocket.png"
+          src="/app/common/spaceboy/astronaut-riding-on-rocket.png"
           alt="astornaut-riding-on-rocket"
           className="absolute -top-2 left-6"
         />

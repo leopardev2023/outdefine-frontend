@@ -33,7 +33,7 @@ export default function AssessmentTip(): ReactElement {
         style={{ height: bgHeight }}
       >
         <img
-          src="/common/spaceboy/astro-computer.png"
+          src="/app/common/spaceboy/astro-computer.png"
           className="h-[86px] md:h-[80%] self-center ml-auto mr-auto md:self-end md:justify-self-end z-[1]"
         />
         <img src="/app/common/bg.png" className="w-full absolute top-0 left-0" />

@@ -11,7 +11,7 @@ const TabIcons = {
   0: (
     <div className='flex flex-col gap-y-5 justify-center items-center'>
       <img
-        src='/common/spaceboy/mooner.png'
+        src='/app/common/spaceboy/mooner.png'
         alt='astronaut-victory'
         className='h-[148px]'
       />

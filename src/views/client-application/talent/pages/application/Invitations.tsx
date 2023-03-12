@@ -43,7 +43,7 @@ export default function TalentInvitations({ data: invitations, loading, onRefetc
       <div className="flex flex-col justify-center gap-y-5 items-center bg-background">
         {invitations?.length === 0 && (
           <EmptyPanelV2
-            image={"/common/spaceboy/astronaut-celebrating.png"}
+            image={"/app/common/spaceboy/astronaut-celebrating.png"}
             title={"No applicants"}
             description={"Create job posts that talent can apply to."}
             imageClassName="w-[150px] h-[155px]"

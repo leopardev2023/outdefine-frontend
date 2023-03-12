@@ -46,7 +46,7 @@ const ForgotPassword = () => {
     <>
       <div className="flex flex-col items-center justify-center min-h-screen forgotPassword-background relative">
         <img
-          src={"/common/spaceboy/gamer1.png"}
+          src={"/app/common/spaceboy/gamer1.png"}
           className="absolute z-10 right-[110px] lg:right-[310px] top-1/4"
           width={230}
           height={230}

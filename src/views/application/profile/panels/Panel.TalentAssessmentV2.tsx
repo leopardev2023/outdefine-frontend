@@ -134,7 +134,7 @@ export default function TalentAssessmentV2({ userRole }: PropsType) {
         <EmptyPanelV2
           className={`h-[480px] mt-[54px] mb-20 pt-[54px] pb-20 flex flex-col ${userRole === "Client" ? "justify-center" : ""
             }`}
-          image={"/common/spaceboy/astro-ipad.png"}
+          image={"/app/common/spaceboy/astro-ipad.png"}
           title={"No Assessments"}
           description={
             userRole === "Client"
