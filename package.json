@@ -1,0 +1,159 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@calcom/embed-react": "^1.0.9",
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@reduxjs/toolkit": "^1.8.4",
+    "@sentry/react": "^7.17.3",
+    "@sentry/tracing": "^7.17.3",
+    "@tailwindcss/forms": "^0.5.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/google-map-react": "^2.1.7",
+    "@types/jest": "^27.0.1",
+    "@types/mixpanel-browser": "^2.38.0",
+    "@types/node": "^16.7.13",
+    "@types/react": "^17.0.44",
+    "@types/react-dom": "^17.0.15",
+    "@types/react-places-autocomplete": "^7.2.9",
+    "@types/react-redux": "^7.1.24",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-toastify": "^4.1.0",
+    "apexcharts": "3.36.3",
+    "autoprefixer": "^10.4.8",
+    "aws-amplify": "4.3.28",
+    "aws-sdk": "2.1275.0",
+    "axios": "^0.27.2",
+    "countries-list": "2.6.1",
+    "css-select": "^4.3.0",
+    "dotenv": "16.0.3",
+    "file-saver": "^2.0.5",
+    "google-map-react": "2.1.10",
+    "is-valid-domain": "0.1.6",
+    "logrocket": "^3.0.1",
+    "minimatch": "^3.1.2",
+    "mixpanel-browser": "^2.45.0",
+    "moment": "2.29.4",
+    "node-phone-utils": "^2.1.1",
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.16",
+    "react": "^17.0.2",
+    "react-apexcharts": "1.4.0",
+    "react-cookie": "4.1.1",
+    "react-datetime": "^3.1.1",
+    "react-datetime-picker": "3.5.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^14.2.3",
+    "react-error-boundary": "^3.1.4",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "7.40.0",
+    "react-hot-toast": "^2.4.0",
+    "react-input-mask": "^2.0.4",
+    "react-loader-spinner": "^5.3.4",
+    "react-loading-skeleton": "^3.1.0",
+    "react-month-picker": "^2.2.1",
+    "react-multi-email": "^0.5.3",
+    "react-phone-number-input": "^3.2.12",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "8.0.2",
+    "react-router-dom": "6.4.5",
+    "react-scripts": "5.0.1",
+    "react-transition-group": "^4.4.5",
+    "sass": "^1.54.4",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.3",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "cross-env PORT=3030 react-scripts start",
+    "start:ci": "cross-env DISABLE_ESLINT_PLUGIN=true PORT=3030 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:coverage": "npm test -- --coverage . > coverage/coverage-report.txt",
+    "test:coverage2": "npm test -- --coverage .> coverage/coverage-report.txt",
+    "eject": "react-scripts eject",
+    "lint": "eslint -c .eslintrc --fix ./src/**/*.ts",
+    "e2e": "cypress run",
+    "test:e2e:ci": "start-server-and-test start:ci http://localhost:4040 e2e"
+  },
+  "homepage": "/app/",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-input-mask": "3.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "cross-env": "^7.0.3",
+    "cypress": "^12.5.1",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "start-server-and-test": "^1.15.3"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text-summary"
+    ]
+  },
+  "overrides": {
+    "@humanwhocodes/config-array": {
+      "minimatch": "3.1.2"
+    },
+    "@calcom/embed-react": {
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    },
+    "react-multi-email": {
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    },
+    "svgo": {
+      "css-select": {
+        "nth-check": "2.1.1"
+      },
+      "nth-check": "2.1.1"
+    },
+    "css-select": {
+      "nth-check": "2.1.1"
+    },
+    "fork-ts-checker-webpack-plugin": {
+      "minimatch": "3.1.2"
+    },
+    "jake": {
+      "minimatch": "3.1.2"
+    },
+    "node-dir": {
+      "minimatch": "3.1.2"
+    },
+    "recursive-readdir": {
+      "minimatch": "3.1.2"
+    },
+    "test-exclude": {
+      "minimatch": "3.1.2"
+    }
+  }
+}

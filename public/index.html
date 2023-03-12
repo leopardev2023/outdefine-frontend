@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&family=Nunito+Sans:wght@300;400;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Outdefine is a decentralized talent community leveraging tokens to connect the world's leading web3 talent with freelance opportunities globally."
+    />
+    <meta property="og:title" content="Outdefine: Decentralized Talent Community | Own Your Career" data-rh="true">
+    <meta property="og:description"
+      content="Outdefine is a decentralized talent community leveraging tokens to connect the world's leading web3 talent with freelance opportunities globally."
+      data-rh="true"
+    >
+    <meta property="og:image" content="%PUBLIC_URL%/banner.png" data-rh="true">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Outdefine</title>
+    <script>
+      var global = global || window;
+      var Buffer = Buffer || [];
+      var process = process || {
+        env: { DEBUG: undefined },
+        version: []
+      };
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      Welcome to Outdefine.
+      Let's follow the founding developers @Outdefine, James Jin, Alex, Aaron
+    -->
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWd0mWdmc405WPnB7dDJeXx0gUdqCi-p0&libraries=places"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script>
+    var APP_ID = "ozwmn7yv";
+    (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + APP_ID;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+  </script>
+  <script>
+    (function (C, A, L) {
+      let p = function (a, ar) {
+        a.q.push(ar);
+      };
+      let d = C.document;
+      C.Cal =
+        C.Cal ||
+        function () {
+          let cal = C.Cal;
+          let ar = arguments;
+          if (!cal.loaded) {
+            cal.ns = {};
+            cal.q = cal.q || [];
+            d.head.appendChild(d.createElement("script")).src = A;
+            cal.loaded = true;
+          }
+          if (ar[0] === L) {
+            const api = function () {
+              p(api, arguments);
+            };
+            const namespace = ar[1];
+            api.q = api.q || [];
+            typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar);
+            return;
+          }
+          p(cal, ar);
+        };
+    })(window, "https://cal.com/embed.js", "init");
+    Cal("init")
+  </script>
+  </body>
+  
+</html>

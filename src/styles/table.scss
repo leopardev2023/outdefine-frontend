@@ -1,0 +1,15 @@
+tbody {
+    tr {
+        td {
+            font-size: 12px;
+            border-bottom: 1px solid #D0CBAB;
+            padding: 8px 0px;
+            text-align: center;
+        }
+        &:last-child {
+            td {
+                border-bottom: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 36" width="40" height="36">
+	<title>New Project</title>
+	<defs>
+		<image  width="40" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAMAAADM4ogkAAAAAXNSR0IB2cksfwAAAGNQTFRFEGC/CmfCCmXCCmbCCWXCCWbBCmXBCmbBBWW/AAAACGS/CmbBEHC/CGi/CmbBCmbBC2XBCmfCCmbCCGC/BWXFCGTDCWbCCmO/CWbCCmbCCGXCCmbCCmPCCGvFCWbCCWXDCWfCWzLklgAAACF0Uk5TEJ/v/7/f788wAEDfECCAoJCv7yAwQN9Qr99gUFAfcG+/Ejm2egAAAMdJREFUeJzt1NsSgiAQBuAFPK0pGJaZVvb+TxkHK2smFi+8679aZj45LA4AjAsynAEwmtkkEOeEWA/TLArmBWKZ0nBXoUkdOr+HEl0UCRsP9yTUYF1LLy3yA+KxC7h3ezhxkysbrqVNY6rEVbnIpOlsceq/4NkduhbPRqmm8n3AgQdhia+UQbiMCkMYx/Zjyh9wNFvTfgMQgv6OEv9RF4CXeRYSSg+vf7gR1IPNzVS9q+b/dXIDvoAR2QDe45x5chXx3tlkrHoASREgtZ0XteQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0"/>
+</svg>

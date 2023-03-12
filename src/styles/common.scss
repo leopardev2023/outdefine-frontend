@@ -1,0 +1,110 @@
+.o-flex {
+  @apply flex items-center justify-center;
+}
+
+.zoom-animation {
+  animation: zoom-in-zoom-out 2s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+// gradient
+.purple-gradient {
+  background: linear-gradient(142.21deg, #4A4AB0 -26.61%, #6363D0 -7.57%, #8989FF 21.01%, #998DEC 46.18%, #D89D9F 82.23%, #F1A382 103.98%, #FFA771 103.99%, #F8F8F8 104%);
+}
+
+// month-picker css
+.month-picker {
+  .rmp-container {
+    width: calc(100% - 40px) !important;
+  }
+  .rmp-cell {
+    width: 100% !important;
+    &.direction-up {
+      .rmp-popup {
+        &.show {
+          top: -380px !important;
+        }
+      }
+    }
+  }
+  .rmp-popup {
+    font-family: 'Inter' !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: black !important;
+    border-radius: 10px !important;
+    margin-top: 27px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 16px !important;
+    width: 100% !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04) !important;
+  }
+  
+  .rmp-pad {
+    width: 100% !important;
+    // &.direction-up {
+    //   display: flex;
+    //   flex-direction: column-reverse;
+    //   div {
+    //     i {
+    //       top: auto !important;
+    //       bottom: 0 !important;
+    //     }
+    //   }
+    // }
+    
+    div {
+      label {
+        font-family: 'Poppins' !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+      }
+      i {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+      }
+    }
+    ul {
+      display: grid !important;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      flex-wrap: wrap !important;
+      height: fit-content !important;
+      justify-content: space-between;
+      li {
+        width: 100% !important;
+      }
+    }
+  }
+  
+  .rmp-btn {
+    height: 52px !important;
+    &:hover {
+      background-color: #2F3454 !important;
+      border-radius: 8px !important;
+      color: white !important;
+    }
+  }
+  
+  .rmp-btn.single.active {
+    background-color: #2F3454 !important;
+    border-radius: 8px !important;
+  }
+  
+  .rmp-btn.single {
+    font-size: 14px !important;
+  }
+}

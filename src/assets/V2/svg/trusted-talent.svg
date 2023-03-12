@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g>
+    <circle cx="12" cy="12" r="12" style="fill: #fff;"/>
+    <circle cx="12" cy="12" r="7.5" style="fill: none; stroke: red; stroke-width: 9px;"/>
+  </g>
+  <circle cx="12" cy="12" r="11" style="fill: #fff; stroke: #ff5757; stroke-width: 2px;"/>
+  <path d="M11.7,6.01c-3.17,.16-5.7,2.78-5.7,6s2.53,5.84,5.7,6V6.01Zm.27,0h.07s-.02,0-.03,0-.02,0-.03,0Zm.93,.07v1.83c1.89,.41,3.3,2.09,3.3,4.11s-1.41,3.69-3.3,4.11v1.83c2.89-.43,5.1-2.93,5.1-5.94s-2.21-5.5-5.1-5.94Z" style="fill: #ff5757; fill-rule: evenodd;"/>
+</svg>
