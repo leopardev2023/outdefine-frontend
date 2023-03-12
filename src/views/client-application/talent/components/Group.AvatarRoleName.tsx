@@ -28,7 +28,7 @@ export default function AvatarRoleNameGroup({
             className="rounded-full"
           />
           {trusted && (
-            <img src="/common/badge/trusted_badge.png" alt="trusted" className="absolute top-1/2" />
+            <img src="/app/common/badge/trusted_badge.png" alt="trusted" className="absolute top-1/2" />
           )}
         </div>
         <NameRoleLocation

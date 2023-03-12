@@ -49,7 +49,7 @@ function CongratsOfferTip() {
   return (
     <div className="flex w-full bg-orange/75 rounded-lg p-2 gap-5">
       <div className="relative">
-        <img src="/common/universe-background.png" alt="universal-background" />
+        <img src="/app/common/universe-background.png" alt="universal-background" />
         <img
           src="/common/spaceboy/astronaut-riding-on-rocket.png"
           alt="astornaut-riding-on-rocket"

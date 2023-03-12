@@ -84,7 +84,7 @@ const SelectAvatar = ({ onChange, withS3, defaultValue = {}, offset = 5 }: ISele
           : <UploadPanel
             handleUpload={handleUpload}
             className='shrink-0'
-            background={sampleAvatar ? `/onboard/client/avatars/banner/${bgIndex}.png` : ``}
+            background={sampleAvatar ? `/app/onboard/client/avatars/banner/${bgIndex}.png` : ``}
             sampleAvatar={previewImage}
         />
         }
@@ -125,7 +125,7 @@ const SelectAvatar = ({ onChange, withS3, defaultValue = {}, offset = 5 }: ISele
               <LeftArrow hidden={bgStart === 0} onClick={previousBgs} />
               {currentBgs.map((_, index: number) =>
                 <Avatar
-                  url={`/onboard/client/avatars/banner/${bgStart + index}.png`}
+                  url={`/app/onboard/client/avatars/banner/${bgStart + index}.png`}
                   className='hover:border-none transition-all duration-100'
                   innerClass={ bgStart === 5 ? "border border-theme" : ""} // White bg needs border
                   onClick={() => onBgClick(bgStart + index)}

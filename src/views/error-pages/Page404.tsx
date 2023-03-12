@@ -10,7 +10,7 @@ export default function Page404() {
       <h1 className='text-[64px] font-poppins font-bold text-odf mt-2'>
         Oh No! Error 404
       </h1>
-      <img src='/common/spaceboy/astro-app-crash.png' alt='app-crashed' />
+      <img src='/app/common/spaceboy/astro-app-crash.png' alt='app-crashed' />
       <p className='text-odf text-xs font-inter leading-6 max-w-[590px] text-center'>
         Oops! Something went wrong. The page you requested was not found or
         could not be reached. Please try refreshing your browser or return back

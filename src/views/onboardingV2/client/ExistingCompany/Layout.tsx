@@ -13,17 +13,17 @@ const Layout = ({ title, spaceBoy, spaceBoyClassName = "", children }: Props) =>
   return (
     <div className="relative flex flex-col md:flex-row w-full min-h-screen h-auto overflow-x-hidden bg-lighter-gray">
       <div
-        style={{ backgroundImage: 'url("/onboard/spaceboy/bg.png")' }}
+        style={{ backgroundImage: 'url("/app/onboard/spaceboy/bg.png")' }}
         className="relative w-screen md:w-[24vw] h-32 md:h-auto bg-repeat-y transition-all mb-[60px] md:mb-0"
       >
         <div className="absolute w-screen md:top-[214px]">
           <img
-            src={`/onboard/spaceboy/${spaceBoy}.png`}
+            src={`/app/onboard/spaceboy/${spaceBoy}.png`}
             alt="spaceboy"
             className={`absolute w-[70px] z-10 top-[15px] ml-[calc(70%-35px)] ${spaceBoyClassName} `}
           />
           <img
-            src={`/onboard/spaceboy/earth-globe.png`}
+            src={`/app/onboard/spaceboy/earth-globe.png`}
             alt="globe"
             className="absolute w-[200px] md:w-[45vw] ml-[calc(50%-100px)] md:ml-[-10vw] top-[30px] z-1 "
           />

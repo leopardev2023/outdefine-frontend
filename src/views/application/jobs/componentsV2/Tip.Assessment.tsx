@@ -36,7 +36,7 @@ export default function AssessmentTip(): ReactElement {
           src="/common/spaceboy/astro-computer.png"
           className="h-[86px] md:h-[80%] self-center ml-auto mr-auto md:self-end md:justify-self-end z-[1]"
         />
-        <img src="/common/bg.png" className="w-full absolute top-0 left-0" />
+        <img src="/app/common/bg.png" className="w-full absolute top-0 left-0" />
       </div>
       <div className="pt-3 flex flex-col h-fit pb-[10px]" ref={ref}>
         <h4 className="font-poppins font-bold text-base leading-6">Complete Assessment</h4>

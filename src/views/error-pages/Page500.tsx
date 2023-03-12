@@ -15,7 +15,7 @@ const Page500 = ({ error, resetErrorBoundary }) => {
         Thats an error
       </BadgeV2>
       <h1 className="text-[64px] font-poppins font-bold text-odf mt-2">Oh No! Error 500</h1>
-      <img src="/common/spaceboy/astro-app-crash.png" alt="app-crashed" />
+      <img src="/app/common/spaceboy/astro-app-crash.png" alt="app-crashed" />
       <p className="text-odf text-xs font-inter leading-6 max-w-[590px] text-center">
         The server encountered an error and can not complete your request. If the error continues
         please contact our support team{" "}

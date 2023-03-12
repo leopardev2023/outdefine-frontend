@@ -18,10 +18,10 @@ const TabIcons = {
       <IconV2 iconType='SHADOW' />
     </div>
   ),
-  1: <img src='/tokens/astronaut-faqs.png' alt='faqs' className='h-[148px]' />,
+  1: <img src='/app/tokens/astronaut-faqs.png' alt='faqs' className='h-[148px]' />,
   2: (
     <img
-      src='/common/spaceboy/astro-roller.png'
+      src='/app/common/spaceboy/astro-roller.png'
       alt='astronaut-victory'
       className='h-[148px]'
     />
