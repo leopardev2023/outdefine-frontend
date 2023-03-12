@@ -73,7 +73,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <Router>
+    <Router basename={"/app"}>
       <Routes>
         <Route path="/404" element={<Page404 />} />
         <Route
